@@ -1,0 +1,39 @@
+{
+  "name": "apiapi",
+  "version": "1.7.1",
+  "description": "Create api clients for node and browser with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boo1ean/apiapi.git"
+  },
+  "keywords": [
+    "api",
+    "client",
+    "xhr",
+    "ajax",
+    "rest",
+    "fetch"
+  ],
+  "author": "Egor Gumenyuk <boo1ean0807@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boo1ean/apiapi/issues"
+  },
+  "homepage": "https://github.com/boo1ean/apiapi",
+  "dependencies": {
+    "axios": "^0.7.0",
+    "bluebird": "^3.0.2",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1",
+    "shitty-qs": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.1",
+    "sinon": "^1.12.2"
+  }
+}
